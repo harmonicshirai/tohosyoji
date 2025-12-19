@@ -8,7 +8,7 @@ export default function Hero() {
             <div className="absolute inset-0 z-0">
                 <div className="absolute inset-0 bg-slate-900/70 z-10" />
                 <Image
-                    src="/images/hero_logistics.png"
+                    src="/tohosyoji/images/hero_logistics.png"
                     alt="Hero Background"
                     fill
                     className="object-cover"

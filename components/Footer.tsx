@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className="md:col-span-1">
                         <div className="flex items-center gap-2 mb-4">
                             <div className="relative h-8 w-8">
-                                <Image src="/images/logo.png" alt="Tohosyoji Logo" fill className="object-contain" />
+                                <Image src="/tohosyoji/images/logo.png" alt="Tohosyoji Logo" fill className="object-contain" />
                             </div>
                             <span className="text-lg font-bold text-white">東方商事株式会社</span>
                         </div>

@@ -17,7 +17,7 @@ export default function CompanyShort() {
                             <dl className="space-y-4 text-sm">
                                 <div className="flex flex-col sm:flex-row">
                                     <dt className="w-24 font-bold text-slate-700">会社名</dt>
-                                    <dd className="text-slate-600 flex-1">〇〇鉱物商事株式会社<br /><span className="text-xs text-slate-400">(XX Minerals Trading Co., Ltd.)</span></dd>
+                                    <dd className="text-slate-600 flex-1">東方商事株式会社<br /><span className="text-xs text-slate-400">(Tohosyoji Co., Ltd.)</span></dd>
                                 </div>
                                 <div className="flex flex-col sm:flex-row">
                                     <dt className="w-24 font-bold text-slate-700">所在地</dt>
@@ -32,7 +32,7 @@ export default function CompanyShort() {
 
                         <div className="bg-slate-100 p-8 border-t md:border-t-0 md:border-l border-slate-200 relative overflow-hidden">
                             <div className="absolute inset-0 opacity-10">
-                                <Image src="/images/logistics_ship.png" alt="Logistics" fill className="object-cover" />
+                                <Image src="/tohosyoji/images/logistics_ship.png" alt="Logistics" fill className="object-cover" />
                             </div>
                             <div className="relative z-10">
                                 <h3 className="text-xl font-bold text-slate-900 mb-6">中国拠点</h3>

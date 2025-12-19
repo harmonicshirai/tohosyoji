@@ -8,7 +8,7 @@ export default function Header() {
                 <div className="flex items-center">
                     <Link href="/" className="flex items-center gap-2">
                         <div className="relative h-10 w-10">
-                            <Image src="/images/logo.png" alt="Tohosyoji Logo" fill className="object-contain" />
+                            <Image src="/tohosyoji/images/logo.png" alt="Tohosyoji Logo" fill className="object-contain" />
                         </div>
                         <span className="text-xl font-bold tracking-tight text-slate-900">東方商事株式会社</span>
                     </Link>

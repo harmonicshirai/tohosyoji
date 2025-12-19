@@ -19,7 +19,7 @@ export default function ProductShelf() {
                     <div className="col-span-1 sm:col-span-2 lg:col-span-2 bg-white rounded-lg overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col md:flex-row">
                         <div className="h-48 md:h-auto md:w-1/3 bg-slate-200 relative">
                             <Image
-                                src="/images/talc_sample.png"
+                                src="/tohosyoji/images/talc_sample.png"
                                 alt="Talc Powder"
                                 fill
                                 className="object-cover"
@@ -47,7 +47,7 @@ export default function ProductShelf() {
                     {/* Secondary: Calcium Carbonate */}
                     <div className="bg-white rounded-lg p-6 border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
                         <div className="h-32 bg-slate-100 rounded mb-4 relative overflow-hidden">
-                            <Image src="/images/calcium_carbonate.png" alt="Calcium Carbonate" fill className="object-cover" />
+                            <Image src="/tohosyoji/images/calcium_carbonate.png" alt="Calcium Carbonate" fill className="object-cover" />
                         </div>
                         <h3 className="text-lg font-bold text-slate-900 mb-3">炭酸カルシウム</h3>
                         <p className="text-sm text-slate-500">重質・軽質、各種グレードをご提案。</p>
@@ -56,7 +56,7 @@ export default function ProductShelf() {
                     {/* Secondary: Barium Sulfate */}
                     <div className="bg-white rounded-lg p-6 border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
                         <div className="h-32 bg-slate-100 rounded mb-4 relative overflow-hidden">
-                            <Image src="/images/barium_sulfate.png" alt="Barium Sulfate" fill className="object-cover" />
+                            <Image src="/tohosyoji/images/barium_sulfate.png" alt="Barium Sulfate" fill className="object-cover" />
                         </div>
                         <h3 className="text-lg font-bold text-slate-900 mb-3">硫酸バリウム</h3>
                         <p className="text-sm text-slate-500">塗料・プラスチック充填材として。</p>
@@ -67,7 +67,7 @@ export default function ProductShelf() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
                     <div className="bg-white rounded-lg p-6 border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
                         <div className="h-32 bg-slate-100 rounded mb-4 relative overflow-hidden">
-                            <Image src="/images/mica_mineral.png" alt="Mica" fill className="object-cover" />
+                            <Image src="/tohosyoji/images/mica_mineral.png" alt="Mica" fill className="object-cover" />
                         </div>
                         <h3 className="text-lg font-bold text-slate-900 mb-3">マイカ</h3>
                         <p className="text-sm text-slate-500">絶縁性・耐熱性フィラー。</p>
