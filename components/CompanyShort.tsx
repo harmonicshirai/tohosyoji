@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function CompanyShort() {
     return (
         <section className="py-16 sm:py-24 bg-white">
@@ -30,7 +32,7 @@ export default function CompanyShort() {
 
                         <div className="bg-slate-100 p-8 border-t md:border-t-0 md:border-l border-slate-200 relative overflow-hidden">
                             <div className="absolute inset-0 opacity-10">
-                                <img src="/images/logistics_ship.png" alt="Logistics" className="w-full h-full object-cover" />
+                                <Image src="/images/logistics_ship.png" alt="Logistics" fill className="object-cover" />
                             </div>
                             <div className="relative z-10">
                                 <h3 className="text-xl font-bold text-slate-900 mb-6">中国拠点</h3>

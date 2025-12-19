@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function TrustBlock() {
     return (
         <section className="py-16 sm:py-24 bg-white relative">
@@ -30,7 +32,7 @@ export default function TrustBlock() {
                     <div className="bg-slate-50 rounded-lg overflow-hidden border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
                         <div className="h-40 relative">
                             {/* Use plain img tag for simplicity within component if no import */}
-                            <img src="/images/quality_lab.png" alt="Quality Lab" className="absolute inset-0 w-full h-full object-cover" />
+                            <Image src="/images/quality_lab.png" alt="Quality Lab" fill className="object-cover" />
                             <div className="absolute inset-0 bg-slate-900/10"></div>
                         </div>
                         <div className="p-6">
