@@ -19,27 +19,31 @@ export default function TransactionFlow() {
                 </div>
 
                 <div className="max-w-3xl mx-auto">
-                    <div className="relative border-l-2 border-slate-200 ml-4 md:ml-0 md:pl-0 md:border-none md:grid md:grid-cols-1 gap-8">
-                        {flow.map((step, index) => (
-                            <div key={index} className="mb-10 ml-6 md:ml-0 md:bg-white md:border md:border-slate-100 md:rounded-lg md:p-6 md:shadow-sm md:flex md:items-center relative">
-                                {/* Circle Marker */}
-                                <span className="absolute -left-[1.6rem] top-1 md:static md:mr-6 flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white text-sm font-bold ring-4 ring-white">
-                                    {index + 1}
-                                </span>
+                    {/* Vertical line specifically positioned under the circles */}
+                    <div className="relative">
+                        <div className="absolute left-4 top-0 bottom-0 w-0.5 bg-slate-200 md:hidden" />
+                        <div className="md:grid md:grid-cols-1 gap-8">
+                            {flow.map((step, index) => (
+                                <div key={index} className="mb-10 ml-0 md:bg-white md:border md:border-slate-100 md:rounded-lg md:p-6 md:shadow-sm flex items-start md:items-center relative">
+                                    {/* Circle Marker */}
+                                    <span className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white text-sm font-bold ring-4 ring-white mr-4 z-10 relative">
+                                        {index + 1}
+                                    </span>
 
-                                <div className="md:flex-1">
-                                    <h3 className="text-lg font-bold text-slate-900 mb-1">{step.title}</h3>
-                                    <p className="text-slate-600">{step.desc}</p>
-                                </div>
-
-                                {/* Arrow for Desktop */}
-                                {index < flow.length - 1 && (
-                                    <div className="hidden md:block absolute bottom-[-1.5rem] left-8 transform translate-x-1/2 text-slate-300">
-                                        ↓
+                                    <div className="md:flex-1 pt-1 md:pt-0">
+                                        <h3 className="text-lg font-bold text-slate-900 mb-1">{step.title}</h3>
+                                        <p className="text-slate-600">{step.desc}</p>
                                     </div>
-                                )}
-                            </div>
-                        ))}
+
+                                    {/* Arrow for Desktop */}
+                                    {index < flow.length - 1 && (
+                                        <div className="hidden md:block absolute bottom-[-1.5rem] left-8 transform translate-x-1/2 text-slate-300">
+                                            ↓
+                                        </div>
+                                    )}
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>
