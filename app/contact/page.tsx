@@ -8,13 +8,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
     return (
-        <main>
-            <div className="bg-slate-900 py-12 sm:py-20 text-center">
-                <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">お問い合わせ</h1>
-                <p className="mt-4 text-lg text-slate-300">
-                    製品のお見積り、在庫確認、カタログ請求など、<br className="sm:hidden" />お気軽にご相談ください。
-                </p>
-            </div>
+        <main className="bg-[#0a1628]">
             <ContactForm />
         </main>
     );
